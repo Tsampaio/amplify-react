@@ -25,7 +25,7 @@ jobs:
   Cypress:
     name: Running End To End Tests
     runs-on: ubuntu-latest
-    needs: Test1
+    needs: Vitest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
